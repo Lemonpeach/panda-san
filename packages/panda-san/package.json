@@ -1,0 +1,31 @@
+{
+  "name": "@lemonpeach/panda-san",
+  "version": "0.0.0",
+  "description": "パンダさん loves to help you build beautiful, responsive, and accessible web applications.",
+  "scripts": {
+    "stylelint": "stylelint 'src/**/*.scss'",
+    "test": "npm run stylelint"
+  },
+  "main": "src/index.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemonpeach/panda-san.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "design",
+    "design system"
+  ],
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Lemonpeach/panda-san/issues"
+  },
+  "homepage": "https://github.com/Lemonpeach/panda-san#readme",
+  "devDependencies": {
+    "stylelint": "^11.0.0",
+    "stylelint-config-sass-guidelines": "^6.1.0",
+    "stylelint-scss": "^3.11.1"
+  }
+}

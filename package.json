@@ -1,0 +1,31 @@
+{
+  "name": "@lemonpeach/panda-san-packages",
+  "version": "0.0.0",
+  "description": "パンダさん loves to help you build beautiful, responsive, and accessible web applications.",
+  "scripts": {
+    "test": "lerna run test",
+    "clean": "lerna clean",
+    "build": "lerna run build",
+    "postinstall": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemonpeach/panda-san.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "design",
+    "design",
+    "system"
+  ],
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Lemonpeach/panda-san/issues"
+  },
+  "homepage": "https://github.com/Lemonpeach/panda-san#readme",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
