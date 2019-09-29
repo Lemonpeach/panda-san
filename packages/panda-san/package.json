@@ -7,6 +7,9 @@
     "test": "npm run stylelint"
   },
   "main": "src/index.scss",
+  "publishConfig": {
+     "access": "public"
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lemonpeach/panda-san.git"
