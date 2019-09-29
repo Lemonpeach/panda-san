@@ -6,6 +6,7 @@
     "test": "lerna run test",
     "clean": "lerna clean",
     "build": "lerna run build",
+    "release": "lerna publish --conventional-commits",
     "postinstall": "lerna bootstrap"
   },
   "repository": {
