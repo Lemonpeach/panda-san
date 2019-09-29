@@ -1,6 +1,6 @@
 {
   "name": "@lemonpeach/panda-san",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "パンダさん loves to help you build beautiful, responsive, and accessible web applications.",
   "scripts": {
     "stylelint": "stylelint 'src/**/*.scss'",
@@ -8,8 +8,8 @@
   },
   "main": "src/index.scss",
   "publishConfig": {
-     "access": "public"
-   },
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lemonpeach/panda-san.git"
