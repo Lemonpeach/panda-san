@@ -9,6 +9,9 @@
     "build": "npm run clean && node-sass src/index.scss css/index.css"
   },
   "main": "src/index.scss",
+  "files": [
+    "src"
+  ],
   "publishConfig": {
     "access": "public"
   },
