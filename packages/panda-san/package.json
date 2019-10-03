@@ -4,9 +4,14 @@
   "description": "パンダさん loves to help you build beautiful, responsive, and accessible web applications.",
   "scripts": {
     "stylelint": "stylelint 'src/**/*.scss'",
-    "test": "npm run stylelint"
+    "test": "npm run stylelint",
+    "clean": "shx rm -rf css",
+    "build": "npm run clean && node-sass src/index.scss css/index.css"
   },
   "main": "src/index.scss",
+  "files": [
+    "src"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -27,6 +32,8 @@
   },
   "homepage": "https://github.com/Lemonpeach/panda-san#readme",
   "devDependencies": {
+    "node-sass": "^4.12.0",
+    "shx": "^0.3.2",
     "stylelint": "^11.0.0",
     "stylelint-config-sass-guidelines": "^6.1.0",
     "stylelint-scss": "^3.11.1"
