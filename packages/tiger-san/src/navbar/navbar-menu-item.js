@@ -1,0 +1,24 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+
+export const NavbarMenuItem = ({ children, href }) => (
+  <li role="none" className="navbar__item">
+    <a
+      role="menuitem"
+      href={href}
+      className="navbar__item navbar__item--link"
+    >
+      {children}
+    </a>
+  </li>
+)
+
+NavbarMenuItem.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.node,
+    PropTypes.element,
+    PropTypes.elementType,
+    PropTypes.func
+  ]).isRequired,
+  href: PropTypes.string.isRequired
+}
