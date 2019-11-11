@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export const NavbarMenuItem = ({ children, href }) => (
+export const NavbarMenuItem = ({ children, href, onClick }) => (
   <li role="none" className="navbar__item">
     <a
       role="menuitem"
       href={href}
       className="navbar__item navbar__item--link"
+      onClick={onClick}
     >
       {children}
     </a>
@@ -20,5 +21,6 @@ NavbarMenuItem.propTypes = {
     PropTypes.elementType,
     PropTypes.func
   ]).isRequired,
-  href: PropTypes.string.isRequired
+  href: PropTypes.string.isRequired,
+  onClick: PropTypes.func
 }
