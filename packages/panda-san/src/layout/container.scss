@@ -1,6 +1,5 @@
 .container {
   margin: 0 auto;
-  max-width: 1344px;
 
   @each $breakpoint-name, $gutter in $container-gutters {
     @include breakpoint($breakpoint-name) {
