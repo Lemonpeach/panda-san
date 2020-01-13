@@ -1,5 +1,6 @@
 .container {
   margin: 0 auto;
+  padding: 0 $container-gutters-default;
 
   @each $breakpoint-name, $gutter in $container-gutters {
     @include breakpoint($breakpoint-name) {
