@@ -1,6 +1,6 @@
 {
   "name": "@lemonpeach/panda-san",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "パンダさん loves to help you build beautiful, responsive, and accessible web applications.",
   "scripts": {
     "stylelint": "stylelint 'src/**/*.scss'",
