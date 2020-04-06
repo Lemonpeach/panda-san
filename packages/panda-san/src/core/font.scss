@@ -5,3 +5,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.hero {
+  font-size: $hero-size;
+  font-weight: $hero-weight;
+}
+
+.title {
+  font-weight: $title-weight;
+
+  @each $title, $title-size in $titles {
+    &--is-#{$title} {
+      font-size: px-to-rem($title-size);
+    }
+  }
+}
