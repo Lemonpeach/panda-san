@@ -1,7 +1,7 @@
-$container-gutters-default: 16px;
+$container-gutters-default: px-to-rem(16px);
 $container-gutters: (
-  tablet: 24px,
-  widescreen: 32px,
-  desktop: 32px,
-  fullhd: 32px
+  tablet: px-to-rem(24px),
+  widescreen: px-to-rem(32px),
+  desktop: px-to-rem(32px),
+  fullhd: px-to-rem(32px)
 );
