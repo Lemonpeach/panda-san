@@ -4,7 +4,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: $container-gutters-default $container-gutters-default;
   width: 100%;
   z-index: $stack-sticky;
 
@@ -25,6 +24,8 @@
     button {
       background: none;
       border: 0;
+      padding: $container-gutters-default;
+
     }
   }
 
@@ -45,6 +46,7 @@
     display: flex;
     height: px-to-rem(36px);
     justify-content: flex-start;
+    padding: $container-gutters-default;
     text-decoration: none;
     width: 100%;
 
