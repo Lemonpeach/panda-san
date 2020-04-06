@@ -6,7 +6,7 @@ export const NavbarMenuItem = ({ children, href, onClick }) => (
     <a
       role="menuitem"
       href={href}
-      className="navbar__item navbar__item--link"
+      className="navbar__item"
       onClick={onClick}
     >
       {children}
