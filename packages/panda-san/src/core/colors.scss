@@ -1,0 +1,5 @@
+@each $color, $color-value in $colors {
+  .is-#{$color} {
+    color: $color-value;
+  }
+};
