@@ -20,3 +20,19 @@ body {
     }
   }
 }
+
+.is-uppercase {
+  text-transform: uppercase;
+}
+
+.has-text-underline {
+  text-decoration: underline;
+}
+
+.has-border-underline {
+  border-bottom: solid 0.25rem;
+}
+
+.has-highlighted-underline {
+  border-bottom: solid 0.25rem $primary-color;
+}
