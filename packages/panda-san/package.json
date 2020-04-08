@@ -3,7 +3,7 @@
   "version": "0.9.0",
   "description": "パンダさん loves to help you build beautiful, responsive, and accessible web applications.",
   "scripts": {
-    "stylelint": "stylelint 'src/**/*.scss'",
+    "stylelint": "stylelint \"src/**/*.scss\"",
     "test": "npm run stylelint",
     "clean": "shx rm -rf css",
     "build": "npm run clean && node-sass src/index.scss css/index.css"
