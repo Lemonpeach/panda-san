@@ -13,6 +13,7 @@ body {
 
 .title {
   font-weight: $title-weight;
+  margin-bottom: 0.75em;
 
   @each $title, $title-size in $titles {
     &--is-#{$title} {
