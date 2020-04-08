@@ -1,0 +1,5 @@
+.form {
+  .input-group + &__button {
+    margin-top: px-to-rem($input-group-gap * 3);
+  }
+}

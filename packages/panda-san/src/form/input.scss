@@ -1,0 +1,26 @@
+.input {
+  @extend %base-font;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid px-to-rem(2px);
+  color: inherit;
+  padding: px-to-rem(12px) px-to-rem(4px);
+  width: 100%;
+
+  &::placeholder {
+    color: inherit;
+  }
+
+  &--select {
+    padding-left: 0;
+
+    option {
+      background-color: $white;
+      color: $black;
+    }
+  }
+
+  &--textarea {
+    min-height: px-to-rem(200px);
+  }
+}
