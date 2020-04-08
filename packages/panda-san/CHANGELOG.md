@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/Lemonpeach/panda-san/compare/v0.8.0...v0.9.0) (2020-04-08)
+
+
+### Bug Fixes
+
+* add bottom margin after titles ([b29daf0](https://github.com/Lemonpeach/panda-san/commit/b29daf0))
+
+
+### Features
+
+* add base form styles ([3b2edf9](https://github.com/Lemonpeach/panda-san/commit/3b2edf9))
+* add button class ([addb079](https://github.com/Lemonpeach/panda-san/commit/addb079))
+* add color modifiers ([5a8aafd](https://github.com/Lemonpeach/panda-san/commit/5a8aafd))
+* add text modifiers ([8947d4d](https://github.com/Lemonpeach/panda-san/commit/8947d4d))
+
+
+
+
+
 # [0.8.0](https://github.com/Lemonpeach/panda-san/compare/v0.7.0...v0.8.0) (2020-04-06)
 
 
