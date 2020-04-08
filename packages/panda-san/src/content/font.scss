@@ -1,0 +1,11 @@
+html,
+body {
+  font-family: $base-font-stack;
+  font-size: $base-font-size;
+}
+
+%base-font {
+  font-family: $base-font-stack;
+  font-size: 1rem;
+  font-weight: 400;
+}

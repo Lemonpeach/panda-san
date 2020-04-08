@@ -1,0 +1,7 @@
+.input-group {
+  width: 100%;
+
+  & + & {
+    margin-top: px-to-rem($input-group-gap);
+  }
+};

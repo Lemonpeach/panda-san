@@ -1,12 +1,25 @@
 $yellow: #ffcf00;
-$peach: #ee2a3e;
+$red: #ee2a3e;
 $blue: #032e53;
 $green: #00a12f;
 $grey: #d3d3d3;
 $white: #fff;
 $black: #000;
 
+$primary-color: $yellow;
+
 $navbar-color: $blue;
-$navbar-menu-color: $peach;
+$navbar-menu-color: $red;
 
 $link-color: $white;
+
+$colors: (
+  primary: $yellow,
+  yellow: $yellow,
+  red: $red,
+  blue: $blue,
+  green: $green,
+  grey: $grey,
+  white: $white,
+  black: $black
+);
