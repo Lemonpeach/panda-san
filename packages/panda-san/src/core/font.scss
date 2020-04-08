@@ -11,6 +11,12 @@ body {
   font-weight: $hero-weight;
 }
 
+%base-font {
+  font-family: $base-font-stack;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .title {
   font-weight: $title-weight;
   margin-bottom: 0.75em;
