@@ -1,6 +1,6 @@
 {
   "name": "@lemonpeach/tiger-san",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "タイガーさん loves to help you build beautiful, responsive, and accessible web applications.",
   "scripts": {
     "eslint": "eslint src",
