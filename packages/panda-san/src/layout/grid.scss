@@ -14,8 +14,10 @@
     &--is-offset-#{$column-size} {
       margin-left: calc(100% / 12 * #{$column-size});
     }
+  }
 
-    @each $breakpoint-name, $breakpoint in $breakpoints {
+  @each $breakpoint-name, $breakpoint in $breakpoints {
+    @for $column-size from 1 through 12 {
       @include breakpoint($breakpoint-name) {
         &--is-#{$column-size}-#{$breakpoint-name} {
           width: calc(100% / 12 * #{$column-size});
