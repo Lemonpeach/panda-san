@@ -1,0 +1,66 @@
+.button {
+  @extend %base-font;
+  align-items: center;
+  background-color: map-get($button-default-type, background-color);
+  border: solid px-to-rem(2px) map-get($button-default-type, background-color);
+  border-radius: px-to-rem(5px);
+  color: map-get($button-default-type, color);
+  display: flex;
+  justify-content: center;
+  padding: px-to-rem(12px) px-to-rem(60px);
+
+  &--is-loading {
+    color: transparent !important;
+    pointer-events: none;
+
+    &::after {
+      animation: button-spin 1.2s linear infinite;
+      border: 0.2em solid map-get($button-default-type, color);
+      border-radius: 50%;
+      border-right-color: transparent;
+      content: '';
+      display: block;
+      height: 1.2em;
+      position: absolute;
+      width: 1.2em;
+    }
+  }
+
+  &--is-inverse {
+    background-color: transparent;
+    color: map-get($button-default-type, background-color);
+
+    &.button--is-loading::after {
+      border-color: map-get($button-default-type, background-color);
+      border-right-color: transparent;
+    }
+  }
+
+  @each $type, $config in $button-types {
+    &--is-#{$type} {
+      background-color: map-get($config, background-color);
+      border-color: map-get($config, background-color);
+      color: map-get($config, color);
+
+      &.button--is-loading::after {
+        border-color: map-get($config, color);
+        border-right-color: transparent;
+      }
+
+      &.button--is-inverse {
+        background-color: transparent;
+        color: map-get($config, background-color);
+
+        &.button--is-loading::after {
+          border-color: map-get($config, background-color);
+          border-right-color: transparent;
+        }
+      }
+    }
+  }
+
+  @keyframes button-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+}
