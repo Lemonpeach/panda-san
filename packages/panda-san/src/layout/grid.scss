@@ -1,14 +1,17 @@
 .grid {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 .column {
+  flex-grow: 1;
+  flex-shrink: 1;
   padding: px-to-rem($grid-column-gap / 2);
 
   @for $column-size from 1 through 12 {
     &--is-#{$column-size} {
-      width: calc(100% / 12 * #{$column-size});
+      flex: none;
     }
 
     &--is-offset-#{$column-size} {
@@ -20,7 +23,7 @@
     @for $column-size from 1 through 12 {
       @include breakpoint($breakpoint-name) {
         &--is-#{$column-size}-#{$breakpoint-name} {
-          width: calc(100% / 12 * #{$column-size});
+          flex: none;
         }
 
         &--is-offset-#{$column-size}-#{$breakpoint-name} {
