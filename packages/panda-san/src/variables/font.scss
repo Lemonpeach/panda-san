@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $base-font-size: 16px !default;
 $base-font-stack: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
@@ -17,3 +18,7 @@ $titles: (
   3: $title-size-3,
   4: $title-size-4
 );
+=======
+$base-font-size: px-to-rem(16px) !default;
+$base-font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+>>>>>>> 8e5f8b3ad416128f20f95bfc7e84eff6e9b99b68
