@@ -1,5 +1,11 @@
-.is-uppercase {
-  text-transform: uppercase;
+.is {
+  &-uppercase {
+    text-transform: uppercase;
+  }
+
+  &-semibold {
+    font-weight: 600;
+  }
 }
 
 .has-text-underline {

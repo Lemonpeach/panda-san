@@ -1,0 +1,10 @@
+.list {
+  &__item {
+    align-items: center;
+    display: flex;
+
+    & + & {
+      margin-top: px-to-rem(3px);
+    }
+  }
+}

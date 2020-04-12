@@ -5,9 +5,11 @@
   border: solid px-to-rem(2px) map-get($button-default-type, background-color);
   border-radius: px-to-rem(5px);
   color: map-get($button-default-type, color);
+  cursor: pointer;
   display: flex;
   justify-content: center;
   padding: px-to-rem(12px) px-to-rem(60px);
+  user-select: none;
 
   &--is-loading {
     color: transparent !important;
