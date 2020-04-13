@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/Lemonpeach/panda-san/compare/v0.10.1...v0.11.0) (2020-04-13)
+
+
+### Bug Fixes
+
+* add flex properties to grid GH-25 ([034686e](https://github.com/Lemonpeach/panda-san/commit/034686e)), closes [#25](https://github.com/Lemonpeach/panda-san/issues/25)
+* make title inline block ([630c5a4](https://github.com/Lemonpeach/panda-san/commit/630c5a4))
+* remove border radius from inputs ([bd0c66c](https://github.com/Lemonpeach/panda-san/commit/bd0c66c))
+* small button updates ([9f48cf2](https://github.com/Lemonpeach/panda-san/commit/9f48cf2))
+
+
+### Features
+
+* add column flex modifier ([7d26530](https://github.com/Lemonpeach/panda-san/commit/7d26530))
+* add flex modifiers GH-25 ([63cabc6](https://github.com/Lemonpeach/panda-san/commit/63cabc6)), closes [#25](https://github.com/Lemonpeach/panda-san/issues/25)
+* add form components ([47a8f0e](https://github.com/Lemonpeach/panda-san/commit/47a8f0e))
+* add lists ([19c5e6f](https://github.com/Lemonpeach/panda-san/commit/19c5e6f))
+* add react button components ([19e9664](https://github.com/Lemonpeach/panda-san/commit/19e9664))
+* add screen reader only class ([9fd7a16](https://github.com/Lemonpeach/panda-san/commit/9fd7a16))
+* add semibold font modifier ([9bef840](https://github.com/Lemonpeach/panda-san/commit/9bef840))
+* calculate grid widths in sass ([93c0f56](https://github.com/Lemonpeach/panda-san/commit/93c0f56))
+* improve button implementation GH-24 ([4d99501](https://github.com/Lemonpeach/panda-san/commit/4d99501)), closes [#24](https://github.com/Lemonpeach/panda-san/issues/24)
+
+
+
+
+
+
 ## [0.10.1](https://github.com/Lemonpeach/panda-san/compare/v0.10.0...v0.10.1) (2020-04-09)
 
 
