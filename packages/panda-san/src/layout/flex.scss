@@ -1,6 +1,10 @@
 .is-flex {
   display: flex;
 
+  &--column {
+    flex-direction: column;
+  }
+
   &--centered {
     align-items: center;
     justify-content: center;
