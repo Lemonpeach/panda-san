@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.1](https://github.com/Lemonpeach/panda-san/compare/v0.11.0...v0.11.1) (2020-04-14)
+
+
+### Bug Fixes
+
+* update select sass for webkit ([27646f4](https://github.com/Lemonpeach/panda-san/commit/27646f4))
+
+
+
+
+
 # [0.11.0](https://github.com/Lemonpeach/panda-san/compare/v0.10.1...v0.11.0) (2020-04-13)
 
 
