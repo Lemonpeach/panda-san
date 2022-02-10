@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/Lemonpeach/panda-san#readme",
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "shx": "^0.3.2",
     "stylelint": "^11.0.0",
     "stylelint-config-sass-guidelines": "^6.1.0",
