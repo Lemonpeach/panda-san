@@ -34,7 +34,7 @@
   "devDependencies": {
     "node-sass": "^4.13.1",
     "shx": "^0.3.2",
-    "stylelint": "^11.0.0",
+    "stylelint": "^16.6.1",
     "stylelint-config-sass-guidelines": "^6.1.0",
     "stylelint-scss": "^3.11.1"
   }
